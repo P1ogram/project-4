@@ -22,6 +22,8 @@ a {
 .nav {
     display: flex;
     justify-content: space-between;
+    min-height: 85px;
+    height: 100%;
 }
 
 .ul {
@@ -59,3 +61,47 @@ a {
     color: #fff;
     margin-top: 17px;
 }
+
+
+.center {
+    max-width: 1920px;
+    width: 100%;
+    min-height: 1071px;
+    height: 100%;
+    background: linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
+    background: url(img/fon.jpg);
+}
+
+.center__content {
+    width: 440px;
+    height: 384px;
+    padding-top: 175px;
+}
+
+.center__title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #01996D;
+}
+
+.center__txt {
+    font-weight: 400;
+    font-size: 20px;
+    color:#000;
+    padding-top: 30px;
+}
+
+.center__button {
+    width: 227px;
+    height: 65px;
+    background: #01996D; 
+    margin-top: 18px;
+    border-radius: 4px;
+}
+
+.center__button-link {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+
